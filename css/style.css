@@ -8,12 +8,14 @@
     margin-left: 15px;
   }
   
-  /*h3, p{
-      margin: 1px;
-      margin-block-start: 1px;
-      margin-block-end: 1px;
-  }*/
-  
+  .cblue{
+    color: #0000ff;
+  } 
+
+  .cwhite{
+    color: #f2f2f2;
+  }
+
   /* ligne logo et navigation */
   .contain-header {
     display: flex;
@@ -145,6 +147,7 @@
     max-height: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -178,8 +181,8 @@
   /* partie "les plus populaires" dane le contenu */
   .populaires {
     width: 30%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #deebff;
     border-radius: 10px;
     display: flex;
@@ -225,10 +228,10 @@
   .texte-vignette p {
     display: block;
     background-color: #000077;
-    margin: 1px;
+    margin: 1px; /* préciser top bottom... */
     margin-block-start: 1px;
     margin-block-end: 1px;
-    padding: 1px;
+    padding: 1px; /* préciser top bottom... */
   }
   .pop-stars {
     margin-bottom: 2px;
