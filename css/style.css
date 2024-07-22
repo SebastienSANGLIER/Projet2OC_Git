@@ -90,10 +90,14 @@
       margin-right: 0px;
   }*/
   
-  #recherche {
+  .search-submit {
     height: 2rem;
     margin-right: 0px;
     display: inline;
+  }
+
+  .mobile-submit{
+    display: none;
   }
   
   .search-submit {
@@ -115,6 +119,10 @@
   .boutons-filtres {
     border-radius: 30px;
     border-color: #d9d9d9;
+  }
+
+  .boutons-filtres:hover{
+    background-color: #deebff;
   }
   
   /* le contenu du main */
@@ -149,16 +157,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
+    width: 250px;
     overflow: hidden;
   }
   
   .img-vignettes {
     display: block;
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
-    height: 100%;
-    max-height: 50%;
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+    /*max-height: 50%;*/
     object-fit: cover;
     object-position: bottom;
     overflow: hidden;
@@ -312,3 +321,29 @@
     list-style-type: none;
   }
   
+  /* media queries */
+
+  @media screen and (max-width:1024px){
+    .contenu{
+        flex-direction: column;
+    }
+    .hebergements, .populaires{
+        width: 95%;
+    }
+    .populaires{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .pop-content{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pop-vignette{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+  }
