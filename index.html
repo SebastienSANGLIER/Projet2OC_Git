@@ -41,8 +41,8 @@
             <label for="recherche" class="logo-search"><i class="fa-solid fa-location-dot"></i
             ></label>
             <input type="text" id="recherche" name="recherche" placeholder="Rechercher">
-            <button type="submit" name="rechercher" id="search-submit" class="search-submit">Rechercher</button>
-            <button type="submit" class="mobile-submit"><i class="fa-solid fa-magnifying-glass cwhite"></i></button>
+            <button type="submit" name="rechercher" id="search-submit" class="search-submit"><span id="search-text">Rechercher</span><i id="search-icon" class="fa-solid fa-magnifying-glass cwhite"></i></button>
+            <!--<button type="submit" class="mobile-submit"><i class="fa-solid fa-magnifying-glass cwhite"></i></button>-->
           </form>
         </div>
         <!-- Boutons de filtres-->
@@ -50,16 +50,16 @@
           <form id="filtres" method="post" action="">
             <span>Filtres : </span>
             <button class="boutons-filtres" value="">
-              <i class="fa-solid fa-money-bill-wave"></i> Economique
+              <i class="fa-solid fa-money-bill-wave cblue"></i> Economique
             </button>
             <button class="boutons-filtres" value="">
-              <i class="fa-solid fa-person"></i> Familial
+              <i class="fa-solid fa-person cblue"></i> Familial
             </button>
             <button class="boutons-filtres" value="">
-              <i class="fa-solid fa-heart"></i> Romantique
+              <i class="fa-solid fa-heart cblue"></i> Romantique
             </button>
             <button class="boutons-filtres" value="">
-              <i class="fa-solid fa-fire"></i> Nos pépites
+              <i class="fa-solid fa-fire cblue"></i> Nos pépites
             </button>
             <!--<input type="button" name="economique" id="economique" value="Economique" class="boutons-filtres">
                         <input type="button" name="familial" id="familial" value="Familial" class="boutons-filtres">
@@ -184,7 +184,7 @@
                 <i class="fa-solid fa-star cblue"></i>
                 <i class="fa-solid fa-star cblue"></i>
                 <i class="fa-solid fa-star cblue"></i>
-                <i class="fa-solid fa-star cblue"></i>
+                <i class="fa-solid fa-star cwhite"></i>
               </div>
             </div>
           </article>
@@ -200,7 +200,7 @@
                 <i class="fa-solid fa-star cblue"></i>
                 <i class="fa-solid fa-star cblue"></i>
                 <i class="fa-solid fa-star cblue"></i>
-                <i class="fa-solid fa-star cblue"></i>
+                <i class="fa-solid fa-star cwhite"></i>
               </div>
             </div>
           </article>
