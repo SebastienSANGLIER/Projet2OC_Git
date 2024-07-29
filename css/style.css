@@ -141,6 +141,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
   }
+
+  .hebergements h3{
+    font-size: 16px;
+  }
   
   /* style d'une vignette */
   .vignette {
@@ -152,7 +156,8 @@
   
   /* la partie photo d'une vignette */
   .photo {
-    max-height: 50%;
+    max-height: 124px;
+    max-width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,9 +218,12 @@
   }
   
   .pop-vignette img {
-    width: 35%;
-    height: 140px;
+    width: 33%;
+    height: 146px;
     border-radius: 15px 0px 0px 15px;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden;
   }
   
   .pop-vignette-content,
@@ -272,25 +280,30 @@
   }
   
   .img-activite {
-    object-fit: cover;
+    display: flex;
+    /*object-fit: cover;
     /*object-position:bottom;*/
     overflow: hidden;
     position: relative;
-    /*max-width: 85%;*/
-    height: 200px;
+    width: 300px;
+    max-height: 380px;
     align-items: center;
-    max-height: 200px;
-    min-height: 200px;
+    object-position: center;
+    /*max-height: 200px;
+    min-height: 200px;*/
   }
   
   .activite img {
+    display: flex;
     border-radius: 10px 10px 0 0;
     margin: 3px;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 380px;
     object-position: center;
+    align-items: center;
     object-fit: cover;
+    overflow: hidden;
   }
   
   .activite h4 {
