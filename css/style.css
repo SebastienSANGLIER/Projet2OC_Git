@@ -16,7 +16,10 @@
     color: #f2f2f2;
   }
 
+
   /* ligne logo et navigation */
+
+
   .contain-header {
     display: flex;
     flex-direction: column;
@@ -69,20 +72,52 @@
     color: #000;
   }
   
+
   /* barre des titres et sous-titres */
+
+
   .titles {
     color: #000000; /* peut-être à jeter plus tard */
   }
+
+  .titles h1{
+    font-size: 22px;
+    height: 26px;
+  }
+
+  .titles p{
+    font-size: 16px;
+    height: 19px;
+  }
   
+
   /* ligne de la barre de recherche */
+
+  .form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 15px;
+    height: 2rem;
+  }
+
+
   .logo-search {
     border-radius: 5px 0px 0px 5px;
-    background-color: #deebff;
+    background-color: #f2f2f2;
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
   }
   
   .search-line {
     display: inline;
     margin-bottom: 15px;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .search-input{
     height: 2rem;
   }
 
@@ -129,14 +164,22 @@
     background-color: #deebff;
   }
   
+
   /* le contenu du main */
+
+
   .contenu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   
+
+
   /* la partie hébergements */
+
+
+
   #hebergements{
     border-radius: 10px;
     background-color: #f2f2f2;
@@ -150,8 +193,9 @@
     gap: 10px;
   }
 
-  .hebergements h3{
+  #hebergements h2{
     font-size: 16px;
+    margin: 15px;
   }
   
   /* style d'une vignette */
@@ -159,10 +203,13 @@
     border-radius: 10px;
     background-color: #fff;
     max-height: 300px;
-    margin: 10px;
+    margin: 15px;
   }
   
+
   /* la partie photo d'une vignette */
+
+
   .photo {
     max-height: 124px;
     max-width: 250px;
@@ -186,7 +233,10 @@
     overflow: hidden;
   }
   
+
   /* le contenu texte d'une vignette */
+
+
   .titre-vignette {
     font-size: 16px;
   }
@@ -199,8 +249,17 @@
   .stars {
     display: inline;
   }
+
+  .vignette h3, .vignette p{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
   
+
   /* partie "les plus populaires" dane le contenu */
+
+
+
   .populaires {
     width: 30%;
     margin-left: 10px;
@@ -216,6 +275,10 @@
     align-items: center;
     justify-content: space-between;
     margin: 15px;
+  }
+
+  .pop-titre h2{
+    font-size: 16px;
   }
   
   .pop-vignette {
@@ -271,13 +334,19 @@
     padding: 0px;
   }
   
+
   /* les activités */
+
+
+  #activites h2{
+    font-size: 16px;
+  }
   
   .activites {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
+    width: 100%;
     margin-top: 20px;
     padding: 10px;
     background-color: #fff;
@@ -286,14 +355,20 @@
   
   .activite {
     background-color: #fff;
-    width: 24%;
-    height: 250px;
-    border-radius: 10px;
+    width: 300px;
+    height: 380px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin: 4px;
-  }
+    margin: 6px;
+    padding: 5px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    }
+
+    .activite h3{
+      margin: 15px;
+    }
   
   .img-activite {
     display: flex;
@@ -305,13 +380,14 @@
     max-height: 380px;
     align-items: center;
     object-position: center;
+    border-radius: 15px 15px 0 0;
     /*max-height: 200px;
     min-height: 200px;*/
   }
   
   .activite img {
     display: flex;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin: 3px;
     display: block;
     width: 300px;
@@ -326,8 +402,10 @@
     height: 15%;
   }
   
+
   /* le footer */
   
+
   .pied {
     display: flex;
     flex-direction: row;
@@ -349,8 +427,10 @@
     padding-left: 0px;
     list-style-type: none;
   }
+ 
   
   /* media queries */
+
 
   @media screen and (max-width:1024px){
     .contenu{
@@ -386,3 +466,4 @@
   display: none;
 }
 }
+

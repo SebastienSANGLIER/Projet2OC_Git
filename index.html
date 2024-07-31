@@ -34,16 +34,21 @@
         <!-- Les titres-->
         <div class="titles">
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-          <h2>En plein centre-ville ou en pleine nature</h2>
+          <p>En plein centre-ville ou en pleine nature</p>
         </div>
         <!-- Barre de recherche-->
         <div class="search-line" id="search-line">
           <form id="rechercher" method="post" action="">
-            <label for="recherche" class="logo-search"><i class="fa-solid fa-location-dot"></i
+            <!--<label for="recherche" class="logo-search"><i class="fa-solid fa-location-dot fa-2xl cblue"></i
             ></label>
-            <input type="text" id="recherche" name="recherche" placeholder="Rechercher">
+            <input type="text" id="recherche" name="recherche" placeholder="Rechercher" class="searce-input">
             <button type="submit" name="rechercher" id="search-submit" class="search-submit"><span id="search-text">Rechercher</span><i id="search-icon" class="fa-solid fa-magnifying-glass cwhite"></i></button>
             <!--<button type="submit" class="mobile-submit"><i class="fa-solid fa-magnifying-glass cwhite"></i></button>-->
+            <div class="form-container">
+              <label for="recherche" class="logo-search"><i class="fa-solid fa-location-dot cblue"></i></label>
+              <input type="text" id="recherche" name="recherche" placeholder="Rechercher" class="search-input">
+              <button type="submit" name="rechercher" id="search-submit" class="search-submit"><span id="search-text">Rechercher</span><i id="search-icon" class="fa-solid fa-magnifying-glass cwhite"></i></button>
+            </div>
           </form>
         </div>
         <!-- Boutons de filtres-->
@@ -77,14 +82,14 @@
       </p>
       <div class="contenu">
         <section id="hebergements">
-          <h3>Hébergements à Marseille</h3>
+          <h2>Hébergements à Marseille</h2>
           <!-- Les vignettes pour les hébergements-->
            <div class="hebergements">
               <article class="vignette">
                 <div class="photo">
                   <img src="images/hebergements/fred-kleber.jpg" class="img-vignettes" alt="Hotel du port">
                 </div>
-                <h1 class="titre-vignette">Hotel du Port</h1>
+                <h3 class="titre-vignette">Hotel du Port</h3>
                 <p class="prix-vignettes">Nuit à partir de 52€</p>
                 <p class="stars">
                   <i class="fa-solid fa-star cblue"></i>
@@ -98,7 +103,7 @@
                 <div class="photo">
                   <img src="images/hebergements/febrian-zakaria.jpg" class="img-vignettes" alt="Amina">
                 </div>
-                <h1 class="titre-vignette">Hotel chez Ammina</h1>
+                <h3 class="titre-vignette">Hotel chez Ammina</h3>
                 <p class="prix-vignettes">Nuit à partir de 96€</p>
                 <p class="stars">
                     <i class="fa-solid fa-star cblue"></i>
@@ -112,7 +117,7 @@
                 <div class="photo">
                   <img src="images/hebergements/reisetopia.jpg" class="img-vignettes" alt="Mouettes">
                 </div>
-                <h1 class="titre-vignette">Hotel des mouettes</h1>
+                <h3 class="titre-vignette">Hotel des mouettes</h3>
                 <p class="prix-vignettes">Nuit à partir de 76€</p>
                 <p class="stars">
                     <i class="fa-solid fa-star cblue"></i>
@@ -126,7 +131,7 @@
                 <div class="photo">
                   <img src="images/hebergements/annie-spratt.jpg" class="img-vignettes" alt="Hotel de la mer">
                 </div>
-                <h1 class="titre-vignette">Hotel de la mer</h1>
+                <h3 class="titre-vignette">Hotel de la mer</h3>
                 <p class="prix-vignettes">Nuit à partir de 46€</p>
                 <p class="stars">
                     <i class="fa-solid fa-star cblue"></i>
@@ -140,7 +145,7 @@
                 <div class="photo">
                   <img src="images/hebergements/marcus-loke.jpg" class="img-vignettes" alt="canebiere">
                 </div>
-                <h1 class="titre-vignette">Auberge la canebière</h1>
+                <h3 class="titre-vignette">Auberge la canebière</h3>
                 <p class="prix-vignettes">Nuit à partir de 25€</p>
                 <p class="stars">
                     <i class="fa-solid fa-star cblue"></i>
@@ -154,7 +159,7 @@
                 <div class="photo">
                   <img src="images/hebergements/nicate-lee.jpg" class="img-vignettes" alt="Panier">
                 </div>
-                <h1 class="titre-vignette">Auberge le panier</h1>
+                <h3 class="titre-vignette">Auberge le panier</h3>
                 <p class="prix-vignettes">Nuit à partir de 23€</p>
                 <p class="stars">
                     <i class="fa-solid fa-star cblue"></i>
@@ -172,7 +177,7 @@
           <!-- Les populaires-->
           <!-- le titre -->
           <div class="pop-titre">
-            <h3>Les plus populaires</h3>
+            <h2>Les plus populaires</h2>
             <i class="fa-solid fa-chart-line" style="color: #0000ff"></i>
           </div>
           <div class="pop-content">
@@ -227,30 +232,30 @@
           </div>
         </section>
         <!-- les activités-->
-        <section class="activites" id="activites">
-          <article class="activite">
-            <h4>Les Activités</h4>
-          </article>
+        <section id="activites">
+          <h2>Les Activités</h2>
+          <div class="activites">
           <article class="activite">
             <div class="img-activite">
               <img src="./images/activites/reno-laithienne.jpg" alt="Port de Marseille">
             </div>
-            <h4>Le vieux Port</h4>
+            <h3>Le vieux Port</h3>
           </article>
           <article class="activite">
             <div class="img-activite">
               <img src="./images/activites/paul-hermann.jpg" alt="Pomegues">
             </div>
-            <h4>Fort de Pomegues</h4>
+            <h3>Fort de Pomegues</h3>
           </article>
           <article class="activite">
             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Calanques">
-            <h4>Parc National des Calanques</h4>
+            <h3>Parc National des Calanques</h3>
           </article>
           <article class="activite">
             <img src="./images/activites/florian-wehde.jpg" alt="Notre Dame">
-            <h4>Notre Dame de la Garde</h4>
+            <h3>Notre Dame de la Garde</h3>
           </article>
+          </div>
         </section>
       </div>
     </main>
