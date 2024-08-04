@@ -164,7 +164,14 @@
     background-color: rgba(0, 0, 220, 1);
   }
   
+
   /* ligne des filtres */
+
+  #boutons{
+    display: flex;
+    flex-direction: row;
+  }
+
   .boutons-filtres {
     border-radius: 30px;
     border-color: #d9d9d9;
@@ -182,6 +189,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
 
@@ -365,7 +373,7 @@
   
   .activite {
     background-color: #fff;
-    width: 300px;
+    width: 290px;
     height: 380px;
     border-radius: 15px;
     display: flex;
@@ -386,7 +394,7 @@
     /*object-position:bottom;*/
     overflow: hidden;
     position: relative;
-    width: 300px;
+    width: 285px;
     max-height: 380px;
     align-items: center;
     object-position: center;
@@ -400,7 +408,7 @@
     border-radius: 15px 15px 0 0;
     margin: 3px;
     display: block;
-    width: 300px;
+    width: 285px;
     height: 380px;
     object-position: center;
     align-items: center;
