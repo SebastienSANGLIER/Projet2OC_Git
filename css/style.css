@@ -16,6 +16,10 @@
     color: #f2f2f2;
   }
 
+  body{
+    width: 95%;
+  }
+
 
   /* ligne logo et navigation */
 
@@ -57,6 +61,7 @@
   
   .liens-nav a:hover {
     text-decoration: overline;
+    color: #0065fc;
   }
   
   .liens-nav li {
@@ -119,6 +124,8 @@
 
   .search-input{
     height: 2rem;
+    line-height: 2rem;
+    border: none;
   }
 
   #search-icon {
@@ -133,6 +140,9 @@
     height: 2rem;
     margin-right: 0px;
     display: inline;
+    line-height: 2rem;
+    height: 2rem;
+    vertical-align: middle;
   }
 
   .mobile-submit{
@@ -432,7 +442,7 @@
   /* media queries */
 
 
-  @media screen and (max-width:1024px){
+  @media (max-width:1024px){
     .contenu{
         flex-direction: column;
     }
@@ -451,9 +461,10 @@
     }
 
     .pop-vignette{
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        width: 33%;
     }
   }
 
