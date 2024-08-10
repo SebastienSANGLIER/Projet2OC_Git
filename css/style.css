@@ -1,6 +1,11 @@
 * {
     font-family: "Raleway", sans-serif;
   }
+
+  #img-logo{
+    width: 160px;
+    height: 40px;
+  }
   
   /* les bases du header */
   header,
@@ -38,16 +43,7 @@
     flex-wrap: wrap;
   }
   
-  /*.logo{
-      /*margin: 15px;
-      /*border: 1px solid black;
-  }*/
-  /*.logo img{
-      height: 50%;
-      width: 50%;
-  }*/
-  
-  .navigation {
+    .navigation {
     margin: 1px;
     /*border: 1px solid black;*/
   }
@@ -56,8 +52,7 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    /*right: 10px;*/
-  }
+    }
   
   .liens-nav a:hover {
     text-decoration: overline;
@@ -67,8 +62,7 @@
   .liens-nav li {
     display: inline;
     color: #000000;
-    /*text-decoration: none;*/
-    list-style-type: none;
+     list-style-type: none;
     margin: 10px;
   }
   
@@ -102,8 +96,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /*margin-left: 15px;
-    height: 2rem;*/
     margin: auto;
   }
 
@@ -147,20 +139,7 @@
     display: none;
   }
   
-  /*.bar-container{
-      margin-right: 0px;
-  }*/
-  
-  /*.search-submit {
-    height: 2rem;
-    margin-right: 0px;
-    display: inline;
-    line-height: 2rem;
-    height: 2rem;
-    vertical-align: middle;
-  }*/
-
-  .mobile-submit{
+    .mobile-submit{
     display: none;
   }
   
@@ -262,7 +241,6 @@
     width: 250px;
     height: 125px;
     margin-top: 10px;
-    /*max-height: 50%;*/
     object-fit: cover;
     object-position: bottom;
     overflow: hidden;
@@ -390,7 +368,6 @@
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
-    /*padding: 10px;*/
     background-color: #fff;
     border-radius: 15px;
   }
@@ -414,29 +391,21 @@
   
   .img-activite {
     display: flex;
-    /*object-fit: cover;
-    /*object-position:bottom;*/
     overflow: hidden;
-    /*position: relative;*/
     width: 285px;
     max-height: 380px;
     align-items: center;
-    /*object-position: center;
-    justify-content: center;*/
     border-radius: 15px 15px 0 0;
-    /*max-height: 200px;
-    min-height: 200px;*/
+    
   }
   
   .activite img {
     display: flex;
     border-radius: 15px 15px 0 0;
-    /*margin: 3px;*/
     display: block;
     width: 285px;
     height: 380px;
-    /*object-position: center;*/
-    align-items: center;
+    /align-items: center;
     object-fit: cover;
     overflow: hidden;
   }
