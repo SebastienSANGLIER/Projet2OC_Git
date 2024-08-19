@@ -536,10 +536,8 @@ padding-top: 10px;
 }
 
 .boutons-filtres{
-  /*margin-left: 15px;
-  margin-right: 15px;*/
+ 
   width: 50px;
-  /*width: 45%;*/
   margin: 5px;
 }
 
@@ -563,6 +561,9 @@ padding-top: 10px;
 
 .pied{
   flex-direction: column;
+}
+.partie-pied{
+  width: 95%;
 }
 
 }
