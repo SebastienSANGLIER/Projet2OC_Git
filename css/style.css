@@ -3,8 +3,8 @@
   }
 
   #img-logo{
-    width: 160px;
-    height: 40px;
+    width: 61px;
+    height: 19px;
   }
   
   /* les bases du header */
@@ -23,6 +23,7 @@
 
   body{
     width: 95%;
+    margin-top: 0;
   }
 
 
@@ -44,32 +45,43 @@
   }
   
     .navigation {
-    margin: 1px;
-    /*border: 1px solid black;*/
-  }
+    margin-top: 0px;
+    }
   
   .liens-nav {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 68px;
+    margin-top:0;
     }
   
-  .liens-nav a:hover {
-    text-decoration: overline;
-    color: #0065fc;
-  }
+  
   
   .liens-nav li {
-    display: inline;
+    display: inline-block;
     color: #000000;
      list-style-type: none;
-    margin: 10px;
+    /*margin: 10px;*/
+    margin-top: 0;
+    padding-top: 20px;
   }
-  
+
   a {
     text-decoration: none;
     color: #000;
   }
+
+  .liens-nav li:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+  }
+
+  .lien-nav-active {
+    border-top: 2px solid #0065fc;
+    color: #0065fc !important;
+  }
+  
+  
   
 
   /* barre des titres et sous-titres */
@@ -215,6 +227,10 @@ padding-top: 10px;
     overflow-wrap: break-word;
   }
   
+  .heberg-pop{
+    display: flex;
+    flex-direction: row;
+  }
 
 
   /* la partie hébergements */
@@ -235,7 +251,7 @@ padding-top: 10px;
   }
 
   #hebergements h2{
-    font-size: 16px;
+    font-size: 22px;
     margin: 15px;
   }
   
@@ -432,7 +448,7 @@ padding-top: 10px;
     display: block;
     width: 285px;
     height: 380px;
-    /align-items: center;
+    align-items: center;
     object-fit: cover;
     overflow: hidden;
   }
@@ -504,6 +520,11 @@ padding-top: 10px;
   border-radius: 15px;
 }
 
+.liens-nav{
+  justify-content: space-between;
+  text-align-items: center;
+}
+
 #search-text{
   display: none;
 }
@@ -537,8 +558,12 @@ padding-top: 10px;
 
 .boutons-filtres{
  
-  width: 50px;
+  width: 150px;
   margin: 5px;
+}
+
+.heberg-pop{
+  flex-direction: column-reverse;
 }
 
 .hebergements{
@@ -564,6 +589,7 @@ padding-top: 10px;
 }
 .partie-pied{
   width: 95%;
+  flex-direction: column;
 }
 
 }
