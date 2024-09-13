@@ -1,0 +1,36 @@
+3. Objectifs 'SMART' fixés par l'étudiant et le mentor pour la prochaine session
+
+Correction de l'application de la couleur des textes des liens dans le CSS
+Desktop
+champs recherche
+OK   texte en gras pour le mot rechercher
+OK   border radius a vérifier
+OK   décalage entre le picto a gauche fond gris et le champ texte
+bouton filter
+OK    couleur de fond gris au lieu de blanc
+OK    vérifier la couleur du border des filtres
+Hebergement
+OK    vérifier la taille des polices des titres
+cards
+OK    margin sous les étoiles ou pading pour les étoiles
+OK    liseré blanc a gauche et droite des photos des cards
+
+populaire
+?     marge des liseré blanc haut et bas
+
+activité
+?SEMBLE CONFORME A FIGMA    titre trop a droite, alignement avec les images
+OK    attention pas de liseré blanc sur les activité
+footer
+décoller la colonne de gauche du bord gris
+
+tablette
+filtre
+le mot filtre passe au dessus des boutons en vue tablette et mobile
+bloc populaire
+placement doit passer dessous le bloc hébergement avec un alignement
+alignement card horizontal
+mobile
+toutes les cards passe en alignement vertical
+hebergement fond blanc et non gris
+footer fond gris sur toute la largeur

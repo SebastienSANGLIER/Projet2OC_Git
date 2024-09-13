@@ -129,7 +129,7 @@
   .search-line {
     display: inline;
     margin-bottom: 15px;
-    height: 2rem;
+    height: 50px;
     font-size: 1.5rem;
   }
 
@@ -163,10 +163,11 @@
     padding: 0 10px;
     margin-left: 0px;
     font-size: 1rem;
+    font-weight: 700;
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     background-color: #0065fc;
   }
   
@@ -190,7 +191,9 @@ padding-top: 10px;
 
   .boutons-filtres {
     border-radius: 30px;
-    border-color: #d9d9d9;
+    /*border-color: #d9d9d9;*/
+    background-color: white;
+    border: 2px solid #d9d9d9;
     width: 200px;
     height:40px;
     line-height: 15px;
@@ -276,14 +279,18 @@ padding-top: 10px;
     position: relative;
     width: 250px;
     overflow: hidden;
+    padding-top: 5px;
   }
   
   .img-vignettes {
     display: block;
     border-radius: 10px 10px 0px 0px;
+    border: 5px;
+    border-top: 10px;
     width: 250px;
     height: 125px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+    margin: 5px;
     object-fit: cover;
     object-position: bottom;
     overflow: hidden;
@@ -303,7 +310,8 @@ padding-top: 10px;
   
   /* partie "etoiles" en bas d'une vignette */
   .stars {
-    display: inline;
+    display: inline-block;
+    margin-bottom: 10px;
   }
 
   .vignette h3, .vignette p{
@@ -334,7 +342,7 @@ padding-top: 10px;
   }
 
   .pop-titre h2{
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .pop-content{
@@ -357,6 +365,7 @@ padding-top: 10px;
     width: 33%;
     height: 146px;
     border-radius: 15px 0px 0px 15px;
+    border: 5px 0px 5px 5px;
     align-items: center;
     object-fit: cover;
     overflow: hidden;
@@ -400,7 +409,7 @@ padding-top: 10px;
 
 
   #activites h2{
-    font-size: 16px;
+    font-size: 22px;
     margin-left: 30px;
     margin-top: 20px;
   }
@@ -424,7 +433,7 @@ padding-top: 10px;
     flex-direction: column;
     align-content: center;
     margin: 6px;
-    /*padding: 5px;*/
+    padding: 0px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     }
 
@@ -439,6 +448,7 @@ padding-top: 10px;
     max-height: 380px;
     align-items: center;
     border-radius: 15px 15px 0 0;
+    margin: 0px;
     
   }
   
@@ -446,11 +456,12 @@ padding-top: 10px;
     display: flex;
     border-radius: 15px 15px 0 0;
     display: block;
-    width: 285px;
+    width: 290px;
     height: 380px;
     align-items: center;
     object-fit: cover;
     overflow: hidden;
+    margin: 0px;
   }
   
   .activite h4 {
@@ -522,7 +533,8 @@ padding-top: 10px;
 
 .liens-nav{
   justify-content: space-between;
-  text-align-items: center;
+  /*text-align-items: center;*/
+  text-align: center;
 }
 
 #search-text{
@@ -560,6 +572,7 @@ padding-top: 10px;
  
   width: 150px;
   margin: 5px;
+  border: 1px solid #d9d9d9;
 }
 
 .heberg-pop{
