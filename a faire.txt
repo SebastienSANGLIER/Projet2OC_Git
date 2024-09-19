@@ -4,8 +4,8 @@ Correction de l'application de la couleur des textes des liens dans le CSS
 Desktop
 champs recherche
 OK   texte en gras pour le mot rechercher
-OK   border radius a vérifier
-OK   décalage entre le picto a gauche fond gris et le champ texte
+OK   border radius a vérifier 
+OK   décalage entre le picto a gauche fond gris et le champ texte 
 bouton filter
 OK    couleur de fond gris au lieu de blanc
 OK    vérifier la couleur du border des filtres
@@ -21,16 +21,36 @@ populaire
 activité
 ?SEMBLE CONFORME A FIGMA    titre trop a droite, alignement avec les images
 OK    attention pas de liseré blanc sur les activité
+
 footer
-décoller la colonne de gauche du bord gris
+OK     décoller la colonne de gauche du bord gris
 
 tablette
 filtre
-le mot filtre passe au dessus des boutons en vue tablette et mobile
+OK    le mot filtre passe au dessus des boutons en vue tablette et mobile
+
 bloc populaire
-placement doit passer dessous le bloc hébergement avec un alignement
+
+OK    placement doit passer dessous le bloc hébergement avec un alignement
 alignement card horizontal
 mobile
-toutes les cards passe en alignement vertical
-hebergement fond blanc et non gris
-footer fond gris sur toute la largeur
+OK    toutes les cards passe en alignement vertical
+OK    hebergement fond blanc et non gris
+OK    footer fond gris sur toute la largeur
+
+
+
+3. Objectifs 'SMART' fixés par l'étudiant et le mentor pour la prochaine session
+
+OK    voir les hover dans le menu
+OK    finaliser hébergement dans le menu (texte bleu)
+OK    réduire la hauteur de l'input texte du champs de recherche pour etre identique à la partie grise et bleu
+OK    Marge en haut et en bas de l'image des cards dans les plus populaires pour équivalent à la marge de gauche
+OK    Attention marge a gauche du titre du bloc activité, il doit être aligné verticalement avec le bord gauche de la première image
+vue tablette : 
+attention à la présence de beaucoup d'espace vide dans les boutons
+OK    le mot filtre en vue tablette et trop proche des boutons, ajouter de la marge entre les deux éléments
+hauteur de la partie titre du bloc les plus populaire à voir
+largeur / hauteur des cards activités en vue tablette pour en avoir 4 sur la même ligne
+marge : pop-content à revoir pour le mobile / tablette
+gérer les modifications de marges des cards en mobiles
