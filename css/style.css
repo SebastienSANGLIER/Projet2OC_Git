@@ -457,7 +457,7 @@ padding-top: 10px;
     display: flex;
     border-radius: 15px 15px 0 0;
     display: block;
-    width: 290px;
+    width: 285px;
     height: 380px;
     align-items: center;
     object-fit: cover;
@@ -522,18 +522,31 @@ padding-top: 10px;
     }
 
     .hebergements, .populaires{
-        width: 95%;
+        width: 865px;
     }
 
     #boutons{
       flex-direction: column;
     }
 
+    .vignette{
+      width: 268px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
     .populaires{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
+    /*.pop-titre{
+      /*margin: 0px;
+
+    }*/
 
     .heberg-pop{
       flex-direction: column;
@@ -550,12 +563,31 @@ padding-top: 10px;
         align-items: flex-start;
         width: 33%;
     }
+  
+
+  .activites{
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
   }
 
-  /*.activite{
-    width: 193px; tout se chevauche...
-  }*/
+  .activites h2{
+    margin-left: 20px;
+  }
 
+  .activite{
+    width: 193px;
+  }
+
+  .activite img{
+    width: 335px;
+    height: 200px;
+  }
+
+  .activite h3{
+    font-size: 16px;
+  }
+}
   /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
   #search-icon {
@@ -571,6 +603,10 @@ body{
   padding-right: 0px;
 }
 
+.logo{
+  padding: 30px;
+}
+
 main{
   margin-left: 0px;
 }
@@ -579,12 +615,48 @@ main{
   width: 375px;
 }
 
+.logo-nav{
+  flex-direction: column;
+  /*justify-content: center;*/
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+  width: 95%;
+}
+
+.liens-nav{
+  width: 300px;
+}
+
+.liens-nav ul{
+  width: 100%;
+  padding-left: 0px;
+  padding-inline-start: 0px;
+}
+
 .heberg-pop{
   width: 370px;
 }
 
+.photo{
+  max-width: 335px;
+  width: 335px;
+}
+
+.vignette{
+  width: 335px;
+}
+
+.pop-vignette{
+  width: 335px;
+}
+
 .activites{
   width: 370px;
+}
+
+.activite{
+  width: 335px;
 }
 
 .liens-nav{
@@ -645,9 +717,14 @@ main{
   width: 375px;
 }
 
+.img-vignettes{
+  width: 335px;
+}
+
 .populaires{
   margin-left: 0px;
   width: 375px;
+  justify-content: center;
 }
 
 .pop-content{
