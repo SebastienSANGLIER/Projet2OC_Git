@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column;
     /*margin-left: 15px;*/
+    width: 1440px;
   }
   
   .logo-nav {
@@ -42,6 +43,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 1440px;
   }
   
     .navigation {
@@ -55,7 +57,9 @@
     margin-top:0;
     }
   
-  
+  .liens-nav ul{
+    padding-inline-start: 0px;
+  }
   
   .liens-nav li {
     display: inline-block;
@@ -64,6 +68,7 @@
     /*margin: 10px;*/
     margin-top: 0;
     padding-top: 20px;
+    margin-right: 20px;
   }
 
   a {
@@ -212,6 +217,7 @@ padding-top: 10px;
    background-color: #0065fc;
    border-radius: 12px;
    margin-right: 10px;
+   display: inline-block;
   }
 
   .info-header i::after{
@@ -482,6 +488,7 @@ padding-top: 10px;
     background-color: #f2f2f2;
     margin: 15px;
     padding: 20px;
+    width: 1024px;
   }
   
   .partie-pied {
@@ -508,6 +515,15 @@ padding-top: 10px;
 
 
   @media (max-width:1024px){
+    body{
+     /*width: 100%;*/
+      margin-left: 0;
+    }
+
+    header, main{
+      margin-left: 2.5%;
+    }
+
     .contenu{
         flex-direction: column;
     }
@@ -521,12 +537,30 @@ padding-top: 10px;
       font-size: 16px;
     }
 
-    .hebergements, .populaires{
-        width: 865px;
+    .hebergements{
+      width: 100%;
+    }
+
+    .photo{
+      max-width: 268px;
+      width: 268px;
+    }
+
+    .img-vignettes{
+      width: 268px;
+    }
+
+    .populaires{
+        width: 95%;
     }
 
     #boutons{
       flex-direction: column;
+    }
+    .hebergements p{
+      margin: 16px;
+      padding-left: 16px;
+      width: 984px;
     }
 
     .vignette{
@@ -539,8 +573,10 @@ padding-top: 10px;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+        /*padding-left: 15px;
+        padding-right: 15px;*/
+        margin-left: 0;
+        margin-right: 0;
     }
 
     /*.pop-titre{
@@ -550,6 +586,8 @@ padding-top: 10px;
 
     .heberg-pop{
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .pop-content{
@@ -569,6 +607,7 @@ padding-top: 10px;
     justify-content: center;
     align-items: center;
     margin-left: 15px;
+    gap: 30px;
   }
 
   .activites h2{
@@ -580,12 +619,17 @@ padding-top: 10px;
   }
 
   .activite img{
-    width: 335px;
+    width: 365px;
     height: 200px;
   }
 
   .activite h3{
     font-size: 16px;
+  }
+
+  .pied{
+    width: 100%;
+    margin-left: 30px;
   }
 }
   /* Small devices (phones, less than 768px) */
@@ -621,17 +665,43 @@ main{
   justify-content: space-around;
   align-items: center;
   padding-left: 0px;
-  width: 95%;
+  width: 100%;
+}
+
+.navigation{
+  justify-content: center;
+  align-items: center;
 }
 
 .liens-nav{
   width: 300px;
+  gap: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.liens-nav ul{
+.logo-nav .navigation .liens-nav ul{
   width: 100%;
-  padding-left: 0px;
-  padding-inline-start: 0px;
+  padding-left: 0px !important;
+  padding-inline-start: 0px !important;
+  padding: 0px !important;
+  margin-left: 0px;
+}
+
+.info-header{
+  width: 300px;
+  margin-left: 20px;
+}
+
+.info-icon{
+  float: left;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 1.45em;
+ text-align: center;
+  vertical-align: middle;
 }
 
 .heberg-pop{
@@ -639,8 +709,9 @@ main{
 }
 
 .photo{
-  max-width: 335px;
-  width: 335px;
+  max-width: 340px;
+  width: 340px;
+  margin-left: 10px;
 }
 
 .vignette{
@@ -652,16 +723,17 @@ main{
 }
 
 .activites{
-  width: 370px;
+  width: 360px;
+  margin:10px 0px 10px -5px;
 }
 
 .activite{
-  width: 335px;
+  width: 360px;
 }
 
 .liens-nav{
-  justify-content: space-between;
-  /*text-align-items: center;*/
+  /*justify-content: space-around;*/
+  align-items: center;
   text-align: center;
 }
 
@@ -709,7 +781,7 @@ main{
 
 .heberg-pop{
   flex-direction: column-reverse;
-  margin-left: 0px;
+  margin-left: 12px;
 }
 
 .hebergements{
@@ -717,8 +789,20 @@ main{
   width: 375px;
 }
 
+.hebergements p{
+  padding-left: 0;
+}
+
+.vignette{
+  margin-left: 0;
+}
+
 .img-vignettes{
   width: 335px;
+}
+
+.afficherplus{
+  padding-left: 16px;
 }
 
 .populaires{
@@ -734,15 +818,20 @@ main{
 
 .activite{
   height: 200px;
+  width: 315px;
 }
 
 .activites{
   flex-direction: column;
 }
 
-.img-activite{
+.activite img{
   width: 315px;
-  height: 141px;
+}
+
+/*.img-activite{
+  width: 315px;
+  height: 141px;*/
 }
 
 .pied{

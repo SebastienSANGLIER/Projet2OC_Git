@@ -54,3 +54,26 @@ OK    hauteur de la partie titre du bloc les plus populaire à voir
 OK    largeur / hauteur des cards activités en vue tablette pour en avo14:10 19/09/2024ir 4 sur la même ligne
 marge : pop-content à revoir pour le mobile / tablette
 gérer les modifications de marges des cards en mobiles
+
+
+
+3. Objectifs 'SMART' fixés par l'étudiant et le mentor pour la prochaine session
+
+Adapter les vignettes en version mobile la taille notamment 
+
+Marge de gauche sur la partie activités a Marseille a optimiser
+
+Pour la partie tablette adapter les tailles comme sur la maquette 
+
+Optimiser le flexbox pour éviter chevauchement 
+
+Footer a adapter selon les formats 
+
+Bein se referer à la maquette 
+
+Diverses améliorations a apport&es sur le format desktop 
+
+
+QUESTIONS
+- transformer le input text en input search?
+liens <a> sur les vignettes des 3 categories?
