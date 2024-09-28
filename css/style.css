@@ -1,3 +1,25 @@
+/*
+
+INDEX
+
+Général : ligne 23
+header : ligne 32
+logo-navigation : ligne 54
+titres : ligne 117
+barre de recherche : ligne 135
+filtres : ligne 205
+main : ligne 258
+partie hebergements : ligne 276
+partie populaires : ligne 362
+partie activités : ligne 448
+footer : ligne 516
+partie @media tablette : ligne 558
+partie @media mobile : ligne 677
+
+
+
+*/
+
 * {
     font-family: "Raleway", sans-serif;
   }
@@ -329,6 +351,7 @@ padding-top: 10px;
   .stars {
     display: inline-block;
     margin-bottom: 10px;
+    width: 268px;
   }
 
   .vignette h3, .vignette p{
@@ -535,7 +558,7 @@ padding-top: 10px;
 
   @media (max-width:1024px){
     body{
-     /*width: 100%;*/
+     width: 1024px;
       margin-left: 0;
     }
 
@@ -543,12 +566,37 @@ padding-top: 10px;
       margin-left: 2.5%;
     }
 
+    main{
+      width: 1024px;
+    }
+
+    .logo-nav{
+      width: 1024px;
+    }
+
+    .liens-nav{
+      margin-right: 50px;
+    }
+
+    .titles, .titles h1, .titles p{
+      width: 924px;
+    }
+
     .contenu{
         flex-direction: column;
+        width: 1024px;
+    }
+
+    #boutons{
+      width: 668px;
     }
 
     .titre-filtres{
       margin-bottom: 30px;
+    }
+
+    #hebergements{
+      width: 864px;
     }
 
     .boutons-filtres{
@@ -570,7 +618,7 @@ padding-top: 10px;
     }
 
     .populaires{
-        width: 95%;
+        width: 904px;
     }
 
     #boutons{
@@ -579,7 +627,7 @@ padding-top: 10px;
     .hebergements p{
       margin: 16px;
       padding-left: 16px;
-      width: 984px;
+      width: 220px;
     }
 
     .vignette{
@@ -603,15 +651,23 @@ padding-top: 10px;
 
     }*/
 
+    
+
     .heberg-pop{
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+      width: 1024px;
+    }
+
+    .pop-titre{
+      width: 904px;
     }
 
     .pop-content{
         display: flex;
         flex-direction: row;
+        width: 904px;
     }
 
     .pop-vignette{
@@ -620,13 +676,19 @@ padding-top: 10px;
         align-items: flex-start;
         width: 33%;
     }
+
+    #activites{
+      width: 904px;
+    }
   
 
   .activites{
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 904px;
     margin-left: 15px;
-    gap: 30px;
+    padding-left: 10px;
+    gap: 20px;
   }
 
   .activites h2{
@@ -635,10 +697,11 @@ padding-top: 10px;
 
   .activite{
     width: 193px;
+    height: 270px;
   }
 
   .activite img{
-    width: 365px;
+    width: 193px;
     height: 200px;
   }
 
@@ -646,12 +709,27 @@ padding-top: 10px;
     font-size: 16px;
   }
 
+  footer{
+    width: 1024px;
+  }
+
   .pied{
-    width: 100%;
+    width: 904px;
     margin-left: 30px;
   }
+
+  .partie-pied{
+    width: 250px;
+  }
+
+  .nav-footer{
+    width: 300px;
+  }
 }
+
   /* Small devices (phones, less than 768px) */
+
+
 @media (max-width: 767.98px) {
   #search-icon {
   display: inline;
@@ -715,7 +793,7 @@ main{
 
 .info-icon{
   float: left;
-  display: inline-block;
+  /*display: inline-block;*/
   width: 24px;
   height: 24px;
   font-size: 1.45em;
