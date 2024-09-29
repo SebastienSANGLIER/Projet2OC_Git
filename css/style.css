@@ -47,7 +47,6 @@ partie @media mobile : ligne 677
   body{
     width: 1440px;
     margin-top: 0;
-    /*padding: 0px 50px 0px 50px;*/
   }
 
 
@@ -57,7 +56,6 @@ partie @media mobile : ligne 677
   .contain-header {
     display: flex;
     flex-direction: column;
-    /*margin-left: 15px;*/
     width: 1440px;
   }
   
@@ -68,6 +66,10 @@ partie @media mobile : ligne 677
     justify-content: space-between;
     flex-wrap: wrap;
     width: 1324px;
+  }
+
+  .logo{
+    margin-top: 20px;
   }
   
     .navigation {
@@ -90,7 +92,6 @@ partie @media mobile : ligne 677
     display: inline-block;
     color: #000000;
      list-style-type: none;
-    /*margin: 10px;*/
     margin-top: 0;
     padding-top: 20px;
     margin-right: 20px;
@@ -139,6 +140,7 @@ partie @media mobile : ligne 677
     flex-direction: row;
     align-items: flex-start;
     margin: auto;
+    width: 1024px;
     }
 
 
@@ -303,6 +305,7 @@ padding-top: 10px;
     background-color: #fff;
     max-height: 300px;
     margin: 0px;
+    width: 250px;
   }
   
 
@@ -328,7 +331,6 @@ padding-top: 10px;
     border-top: 10px;
     width: 250px;
     height: 125px;
-    /*margin-top: 10px;*/
     margin: 5px;
     object-fit: cover;
     object-position: bottom;
@@ -537,7 +539,6 @@ padding-top: 10px;
     display: flex;
     flex-direction: column;
     width: 30%;
-    /*border: #000 solid 2px;*/
     margin-left: 10px;
   }
   
@@ -564,9 +565,10 @@ padding-top: 10px;
 
     header, main{
       margin-left: 2.5%;
+      width: 1024px;
     }
 
-    main{
+    .contain-header{
       width: 1024px;
     }
 
@@ -640,18 +642,9 @@ padding-top: 10px;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
-        /*padding-left: 15px;
-        padding-right: 15px;*/
         margin-left: 0;
         margin-right: 0;
     }
-
-    /*.pop-titre{
-      /*margin: 0px;
-
-    }*/
-
-    
 
     .heberg-pop{
       flex-direction: column;
@@ -730,7 +723,7 @@ padding-top: 10px;
   /* Small devices (phones, less than 768px) */
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   #search-icon {
   display: inline;
   border-radius: 15px;
@@ -758,7 +751,6 @@ main{
 
 .logo-nav{
   flex-direction: column;
-  /*justify-content: center;*/
   justify-content: space-around;
   align-items: center;
   padding-left: 0px;
@@ -793,7 +785,6 @@ main{
 
 .info-icon{
   float: left;
-  /*display: inline-block;*/
   width: 24px;
   height: 24px;
   font-size: 1.45em;
@@ -829,7 +820,6 @@ main{
 }
 
 .liens-nav{
-  /*justify-content: space-around;*/
   align-items: center;
   text-align: center;
 }
@@ -926,18 +916,10 @@ main{
   width: 315px;
 }
 
-/*.img-activite{
-  width: 315px;
-  height: 141px;
-}*/
-
 .pied{
   flex-direction: column;
   align-items: normal;
   width: 385px;
-  /*margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;*/
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
