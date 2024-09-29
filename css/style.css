@@ -139,7 +139,7 @@ partie @media mobile : ligne 677
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: auto;
+    /*margin: auto;*/
     width: 1024px;
     }
 
@@ -729,6 +729,10 @@ padding-top: 10px;
   border-radius: 15px;
 }
 
+html{
+  width: 375px;
+}
+
 body{
   width: 375px;
   margin-left: 0px;
@@ -739,6 +743,12 @@ body{
 
 .logo{
   padding: 30px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+header, main{
+  width: 375px;
 }
 
 main{
@@ -749,12 +759,21 @@ main{
   width: 375px;
 }
 
+.contain-header{
+  width: 375px;
+}
+
 .logo-nav{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding-left: 0px;
-  width: 100%;
+  width: 375px;
+}
+
+#img-logo{
+  width: 90px;
+  height: 30px;
 }
 
 .navigation{
@@ -764,10 +783,12 @@ main{
 
 .liens-nav{
   width: 300px;
-  gap: 36px;
+  gap: 60px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .logo-nav .navigation .liens-nav ul{
@@ -776,6 +797,20 @@ main{
   padding-inline-start: 0px !important;
   padding: 0px !important;
   margin-left: 0px;
+}
+
+.form-container{
+  width: 375px;
+  margin-left: 30px;
+}
+
+.titre-filtres{
+  width: 375px;
+  padding-left: 20px;
+}
+
+#boutons, .liste-boutons{
+  width: 375px;
 }
 
 .info-header{
@@ -793,7 +828,12 @@ main{
 }
 
 .heberg-pop{
-  width: 370px;
+  width: 375px;
+}
+
+.pop-titre{
+  width: 335px;
+  margin: 0px 35px 0px 25px;
 }
 
 .photo{
@@ -808,10 +848,15 @@ main{
 
 .pop-vignette{
   width: 335px;
+  margin: 10px 20px 10px 25px;
 }
 
-.activites{
-  width: 360px;
+.pop-vignette img{
+  margin: 2px 0px 2px 2px;
+}
+
+#activites, .activites{
+  width: 375px;
   margin:10px 0px 10px -5px;
 }
 
@@ -831,24 +876,20 @@ main{
 .search-submit{
   border-radius: 15px;
 }
-
-.logo{
-  text-align: center;
-  
-}
-
-.logo-nav{
-  justify-content: center;
+.titles{
+  width: 375px;
 }
 
 .titles h1{
   margin-bottom: 20px;
   padding: 10px;
+  width: 375px;
 }
 
 .titles p{
   margin-top: 20px;
   padding: 10px;
+  width: 375px;
 }
 
 #boutons{
@@ -862,18 +903,25 @@ main{
   border: 1px solid #d9d9d9;
 }
 
-.hebergements{
+.heberg-pop{
+  flex-direction: column-reverse;
+  margin-left: 0px;
+}
+
+#hebergements{
+  width: 375px;
+  padding: 0;
   background-color: #fff;
 }
 
-.heberg-pop{
-  flex-direction: column-reverse;
-  margin-left: 12px;
+#hebergements h2{
+  margin: 15px 15px 15px 35px;
 }
 
 .hebergements{
   grid-template-columns: 1fr;
   width: 375px;
+  background-color: #fff;
 }
 
 .hebergements p{
@@ -881,7 +929,7 @@ main{
 }
 
 .vignette{
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 .img-vignettes{
@@ -889,12 +937,13 @@ main{
 }
 
 .afficherplus{
-  padding-left: 16px;
+  padding-left: 40px;
 }
 
 .populaires{
   margin-left: 0px;
-  width: 375px;
+  width: 400px;
+  border-radius: 0;
   justify-content: center;
 }
 
@@ -903,9 +952,14 @@ main{
   width: 351px;
 }
 
+#activites h2{
+  margin-left: 40px;
+}
+
 .activite{
   height: 200px;
   width: 315px;
+  margin: 6px 6px 6px 30px;
 }
 
 .activites{
@@ -916,10 +970,14 @@ main{
   width: 315px;
 }
 
+footer{
+  width: 375px;
+}
+
 .pied{
   flex-direction: column;
   align-items: normal;
-  width: 385px;
+  width: 400px;
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
