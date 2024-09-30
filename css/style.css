@@ -401,6 +401,11 @@ padding-top: 10px;
     background-color: #fff;
     border-radius: 20px;
     padding: 5px;
+    flex-wrap: nowrap;
+  }
+
+  .pop-vignette a{
+    width: 382px;
   }
   
   .pop-vignette img {
@@ -412,6 +417,7 @@ padding-top: 10px;
     align-items: center;
     object-fit: cover;
     overflow: hidden;
+    float: left;
   }
   
   .pop-vignette-content,
@@ -420,7 +426,7 @@ padding-top: 10px;
   }
   
   .pop-vignette-content {
-    width: 65%;
+    width: 64%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -452,6 +458,7 @@ padding-top: 10px;
 
   #activites{
     margin-left: 15px;
+    margin-bottom: 40px;
   }
 
 
