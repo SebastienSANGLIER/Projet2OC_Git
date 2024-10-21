@@ -76,4 +76,4 @@ OK    Diverses améliorations a apport&es sur le format desktop
 
 QUESTIONS
 - transformer le input text en input search?
-liens <a> sur les vignettes des 3 categories?
+- liens <a> sur les vignettes des 3 categories?
