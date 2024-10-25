@@ -44,6 +44,10 @@ partie @media mobile : ligne 677
     color: #f2f2f2;
   }
 
+  .cclearblue{
+    *background-color: #deebff;
+  }
+
   body{
     width: 1440px;
     margin-top: 0;
@@ -207,7 +211,6 @@ partie @media mobile : ligne 677
   /* ligne des filtres */
 .titre-filtres{
 margin-right: 15px;
-font-size: bold;
 font-weight: 700;
 font-size: 18px;
 vertical-align: middle;
@@ -282,7 +285,7 @@ padding-top: 10px;
   #hebergements{
     border-radius: 10px;
     background-color: #f2f2f2;
-    width: 375px;
+    width: 768px;
     padding: 20px 20px 0px 20px;
     
   }
@@ -412,7 +415,7 @@ padding-top: 10px;
     width: 33%;
     height: 146px;
     border-radius: 15px 0px 0px 15px;
-    border: 5px 0px 5px 5px;
+    border: none;
     justify-content: center;
     align-items: center;
     object-fit: cover;
@@ -754,6 +757,10 @@ padding-top: 10px;
   border-radius: 15px;
 }
 
+html, body{
+  overflow-x: hidden;
+}
+
 html{
   width: 375px;
   max-width: 375px;
@@ -1042,6 +1049,8 @@ main{
 
 .activite a{
   background-color: #f2f2f2;
+  display: inline-block;
+  border-radius: 15px;
 }
 
 .activite img{
@@ -1061,7 +1070,7 @@ footer{
   align-items: normal;
   width: 375px;
   max-width: 375px;
-  height: 420px;
+  height: 430px;
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
