@@ -770,7 +770,7 @@ body{
 
 .logo{
   padding: 30px;
-  margin-right: 0px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -815,7 +815,7 @@ main{
 }
 
 .liens-nav{
-  width: 300px;
+  width: 375px;
   gap: 60px;
   display: flex;
   flex-direction: row;
@@ -826,6 +826,19 @@ main{
   text-align: center;
   margin-left:-25px;
   font-size: 22px;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 10px;
+}
+
+/*.lien-nav{
+  border-bottom: 2px solid #d9d9d9;
+}*/
+
+.lien-nav-active a {
+  border-top: none;
+  border-bottom: 2px solid #0065fc;
+  color: #0065fc !important;
+  padding-bottom: 10px;
 }
 
 .logo-nav .navigation .liens-nav ul{
@@ -839,13 +852,14 @@ main{
 .form-container{
   width: 375px;
   max-width: 375px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .titre-filtres{
   width: 375px;
   max-width: 375px;
   padding-left: 20px;
+  margin-bottom: 10px;
 }
 
 #boutons, .liste-boutons{
@@ -875,7 +889,7 @@ main{
 }
 
 .pop-titre{
-  width: 375px;
+  width: 330px;
   max-width: 375px;
   margin: 0px 35px 0px 25px;
 }
@@ -913,10 +927,10 @@ main{
   margin:10px 0px 10px -5px;
 }
 
-.activite{
+/*.activite{
   width: 375px;
   max-width: 375px;
-}
+}*/
 
 #search-text{
   display: none;
@@ -990,7 +1004,7 @@ main{
 }
 
 .afficherplus{
-  padding-left: 40px;
+  padding-left: 10px;
 }
 
 .populaires{
@@ -1011,7 +1025,7 @@ main{
 }
 
 #activites h2{
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .activite{
@@ -1047,6 +1061,7 @@ footer{
   align-items: normal;
   width: 375px;
   max-width: 375px;
+  height: 420px;
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
