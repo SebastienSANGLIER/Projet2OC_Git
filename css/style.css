@@ -282,7 +282,7 @@ padding-top: 10px;
   #hebergements{
     border-radius: 10px;
     background-color: #f2f2f2;
-    width: 768px;
+    width: 375px;
     padding: 20px 20px 0px 20px;
     
   }
@@ -756,10 +756,12 @@ padding-top: 10px;
 
 html{
   width: 375px;
+  max-width: 375px;
 }
 
 body{
   width: 375px;
+  max-width: 375px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 0px;
@@ -768,12 +770,13 @@ body{
 
 .logo{
   padding: 30px;
-  margin-right: 150px;
+  margin-right: 0px;
   text-align: center;
 }
 
 header, main{
   width: 375px;
+  max-width: 375px;
 }
 
 main{
@@ -782,10 +785,12 @@ main{
 
 .contenu{
   width: 375px;
+  max-width: 375px;
 }
 
 .contain-header{
   width: 375px;
+  max-width: 375px;
 }
 
 .logo-nav{
@@ -794,16 +799,19 @@ main{
   align-items: center;
   padding-left: 0px;
   width: 375px;
+  max-width: 375px;
 }
 
 #img-logo{
-  width: 90px;
-  height: 30px;
+  width: 180px; /* anciennement 90*/
+  height: 60px; /* anciennement 30*/
 }
 
 .navigation{
   justify-content: center;
   align-items: center;
+  margin-right: 0;
+  width: 100%;
 }
 
 .liens-nav{
@@ -814,6 +822,10 @@ main{
   justify-content: flex-start;
   font-weight: 400;
   font-size: 16px;
+  align-items: center;
+  text-align: center;
+  margin-left:-25px;
+  font-size: 22px;
 }
 
 .logo-nav .navigation .liens-nav ul{
@@ -826,20 +838,25 @@ main{
 
 .form-container{
   width: 375px;
+  max-width: 375px;
   margin-left: 30px;
 }
 
 .titre-filtres{
   width: 375px;
+  max-width: 375px;
   padding-left: 20px;
 }
 
 #boutons, .liste-boutons{
   width: 375px;
+  max-width: 375px;
+  margin-left: 10px;
 }
 
 .info-header{
-  width: 300px;
+  width: 335px;
+  max-width: 375px;
   margin-left: 20px;
 }
 
@@ -854,26 +871,32 @@ main{
 
 .heberg-pop{
   width: 375px;
+  max-width: 375px;
 }
 
 .pop-titre{
-  width: 335px;
+  width: 375px;
+  max-width: 375px;
   margin: 0px 35px 0px 25px;
 }
 
 .photo{
-  max-width: 340px;
-  width: 340px;
-  margin-left: 10px;
+  max-width: 375px;
+  width: 335px;
+  margin-left: 0px;
 }
 
 .vignette{
   width: 335px;
+  max-width: 375px;
+  box-shadow: 0px 3px 15px 0px #0000001A;
+
 }
 
 .pop-vignette{
-  width: 315px;
-  margin: 10px 20px 10px 25px;
+  width: 335px;
+  max-width: 375px;
+  margin: 10px 20px 10px 15px;
 }
 
 .pop-vignette img{
@@ -886,16 +909,13 @@ main{
 
 #activites, .activites{
   width: 375px;
+  max-width: 375px;
   margin:10px 0px 10px -5px;
 }
 
 .activite{
-  width: 360px;
-}
-
-.liens-nav{
-  align-items: center;
-  text-align: center;
+  width: 375px;
+  max-width: 375px;
 }
 
 #search-text{
@@ -907,29 +927,33 @@ main{
 }
 .titles{
   width: 375px;
+  max-width: 375px;
 }
 
 .titles h1{
-  margin-bottom: 20px;
   padding: 10px;
   width: 375px;
+  max-width: 375px;
+  font-size: 22px;
 }
 
 .titles p{
   margin-top: 20px;
   padding: 10px;
   width: 375px;
+  max-width: 375px;
 }
 
 #boutons{
   flex-direction: column;
-}
+  }
 
 .boutons-filtres{
  
-  width: 150px;
+  /*width: 300px;*/
   margin: 5px;
   border: 1px solid #d9d9d9;
+  /*font-size: 22px;*/
 }
 
 .heberg-pop{
@@ -939,18 +963,21 @@ main{
 
 #hebergements{
   width: 375px;
+  max-width: 375px;
   padding: 0;
   background-color: #fff;
 }
 
 #hebergements h2{
-  margin: 15px 15px 15px 35px;
+  margin: 15px 15px 15px 20px;
 }
 
 .hebergements{
   grid-template-columns: 1fr;
   width: 375px;
+  max-width: 375px;
   background-color: #fff;
+  padding-left: 10px;
 }
 
 .hebergements p{
@@ -958,7 +985,8 @@ main{
 }
 
 .img-vignettes{
-  width: 335px;
+  width: 375px;
+  max-width: 375px;
 }
 
 .afficherplus{
@@ -966,15 +994,20 @@ main{
 }
 
 .populaires{
-  margin-left: 0px;
-  width: 400px;
+  /*margin-left: 0px;*/
+  margin: 0px 0px 0px 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 375px;
+  max-width: 375px;
   border-radius: 0;
   justify-content: center;
 }
 
 .pop-content{
   flex-direction: column;
-  width: 351px;
+  width: 375px;
+  max-width: 375px;
 }
 
 #activites h2{
@@ -983,7 +1016,8 @@ main{
 
 .activite{
   height: 200px;
-  width: 315px;
+  width: 335px;
+  max-width: 375px;
   margin: 6px 6px 6px 30px;
 }
 
@@ -992,28 +1026,39 @@ main{
   padding-left: 0;
 }
 
+.activite a{
+  background-color: #f2f2f2;
+}
+
 .activite img{
-  width: 315px;
+  width: 335px;
+  max-width: 375px;
+  height: 140px;
 }
 
 footer{
   width: 375px;
+  max-width: 375px;
+  margin-top: 50px;
 }
 
 .pied{
   flex-direction: column;
   align-items: normal;
-  width: 400px;
+  width: 375px;
+  max-width: 375px;
   margin: 0px 0px 0px 0px;
   padding: 0px;
 }
 .partie-pied{
   width: 375px;
+  max-width: 375px;
   flex-direction: column;
 }
 
 .nav-footer{
   width: 375px;
+  max-width: 375px;
 }
 
 }
