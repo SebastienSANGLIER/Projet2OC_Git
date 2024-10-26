@@ -4,17 +4,17 @@ INDEX
 
 Général : ligne 23
 header : ligne 32
-logo-navigation : ligne 54
-titres : ligne 117
-barre de recherche : ligne 135
-filtres : ligne 205
-main : ligne 258
-partie hebergements : ligne 276
-partie populaires : ligne 362
-partie activités : ligne 448
-footer : ligne 516
-partie @media tablette : ligne 558
-partie @media mobile : ligne 677
+logo-navigation : ligne 58
+titres : ligne 121
+barre de recherche : ligne 139
+filtres : ligne 209
+main : ligne 262
+partie hebergements : ligne 280
+partie populaires : ligne 369
+partie activités : ligne 461
+footer : ligne 534
+partie @media tablette : ligne 574
+partie @media mobile : ligne 749
 
 
 
@@ -30,6 +30,7 @@ partie @media mobile : ligne 677
   }
   
   /* les bases du header */
+
   header,
   main {
     margin-left: 50px;
@@ -117,8 +118,6 @@ partie @media mobile : ligne 677
   }
   
   
-  
-
   /* barre des titres et sous-titres */
 
 
@@ -143,7 +142,6 @@ partie @media mobile : ligne 677
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    /*margin: auto;*/
     width: 1024px;
     }
 
@@ -209,6 +207,7 @@ partie @media mobile : ligne 677
   
 
   /* ligne des filtres */
+
 .titre-filtres{
 margin-right: 15px;
 font-weight: 700;
@@ -303,6 +302,7 @@ padding-top: 10px;
   }
   
   /* style d'une vignette */
+
   .vignette {
     border-radius: 10px;
     background-color: #fff;
@@ -353,6 +353,7 @@ padding-top: 10px;
   }
   
   /* partie "etoiles" en bas d'une vignette */
+
   .stars {
     display: inline-block;
     margin-bottom: 10px;
@@ -441,10 +442,10 @@ padding-top: 10px;
   .texte-vignette h3,
   .texte-vignette p {
     display: block;
-    margin: 1px; /* préciser top bottom... */
+    margin: 1px;
     margin-block-start: 1px;
     margin-block-end: 1px;
-    padding: 1px; /* préciser top bottom... */
+    padding: 1px;
   }
 
   .texte-vignette h3{
@@ -496,8 +497,7 @@ padding-top: 10px;
 
     .activite a{
       box-shadow: 0px 3px 15px 0px #0000001A;
-      /*background-color: red;*/
-    }
+      }
 
     .activite h3{
       margin: 15px;
@@ -571,6 +571,7 @@ padding-top: 10px;
   
   /* media queries */
 
+  /* tab mode */
 
   @media (max-width:1024px){
     body{
@@ -633,8 +634,6 @@ padding-top: 10px;
     .img-vignettes{
       width: 268px;
     }
-
-    
 
     #boutons{
       flex-direction: column;
@@ -702,7 +701,6 @@ padding-top: 10px;
       width: 904px;
     }
   
-
   .activites{
     justify-content: flex-start;
     align-items: center;
@@ -837,10 +835,6 @@ main{
   padding-bottom: 10px;
 }
 
-/*.lien-nav{
-  border-bottom: 2px solid #d9d9d9;
-}*/
-
 .lien-nav-active a {
   border-top: none;
   border-bottom: 2px solid #0065fc;
@@ -933,11 +927,6 @@ main{
   max-width: 375px;
   margin:10px 0px 10px -5px;
 }
-
-/*.activite{
-  width: 375px;
-  max-width: 375px;
-}*/
 
 #search-text{
   display: none;
