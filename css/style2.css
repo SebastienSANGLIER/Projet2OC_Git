@@ -241,6 +241,10 @@ padding-top: 10px;
     background-color: #deebff;
   }
 
+  #pepites{
+    background-color: #deebff;
+  }
+
   .info-icon{
    color: #fff;
    background-color: #0065fc;
@@ -577,7 +581,8 @@ padding-top: 10px;
     }
 
     header, main{
-      margin-left: 2.5%;
+      margin-left: 50px;
+      margin-right: 50px;
       width: 1024px;
     }
 
@@ -587,6 +592,10 @@ padding-top: 10px;
 
     .logo-nav{
       width: 1024px;
+    }
+
+    .navigation{
+        margin-right: 20px;
     }
 
     .liens-nav{
@@ -610,17 +619,23 @@ padding-top: 10px;
       margin-bottom: 30px;
     }
 
+    .info-header{
+        margin-top: 50px;
+    }
+
     #hebergements{
-      width:964px;
+      width:884px;
     }
 
     .boutons-filtres{
       width: 150px;
+      height: 50px;
       font-size: 16px;
     }
 
     .hebergements{
       width: 100%;
+      gap: 10px;
     }
 
     .photo{
@@ -655,7 +670,7 @@ padding-top: 10px;
     .populaires{
         display: flex;
         flex-direction: column;
-        width: 1004px;
+        width: 924px;
         height: 260px;
         margin-top: 50px;
         margin-left: 0;
@@ -670,13 +685,13 @@ padding-top: 10px;
     }
 
     .pop-titre{
-      width: 944px;
+      width: 884px;
     }
 
     .pop-content{
         display: flex;
         flex-direction: row;
-        width: 1024px;
+        width: 934px;
     }
 
     .pop-vignette{
@@ -702,7 +717,7 @@ padding-top: 10px;
     justify-content: flex-start;
     align-items: center;
     width: 904px;
-    margin-left: 45px;
+    margin-left: 10px;
     /*padding-left: 10px;*/
     gap: 20px;
   }
@@ -730,7 +745,7 @@ padding-top: 10px;
   }
 
   .pied{
-    width: 954px;
+    width: 884px;
     margin-left: 30px;
   }
 
@@ -864,6 +879,14 @@ main{
   width: 375px;
   max-width: 375px;
   margin-left: 10px;
+}
+
+#pepites{
+    background-color: #fff;
+}
+
+#romantique{
+    background-color: #deebff;
 }
 
 .info-header{
