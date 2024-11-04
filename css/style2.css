@@ -786,14 +786,16 @@ body{
 }
 
 .logo{
-  padding: 30px;
+  padding: 30px 30px 30px 20px;
   margin-right: 10px;
   text-align: center;
+  margin-left: 15px;
 }
 
 header, main{
   width: 375px;
   max-width: 375px;
+  margin-left: 0px;
 }
 
 main{
@@ -820,15 +822,21 @@ main{
 }
 
 #img-logo{
-  width: 180px; /* anciennement 90*/
-  height: 60px; /* anciennement 30*/
+  width: 61px; /* anciennement 90*/
+  height: 19px; /* anciennement 30*/
 }
 
 .navigation{
   justify-content: center;
   align-items: center;
+  margin-left: 80px;
   margin-right: 0;
   width: 100%;
+}
+
+#navigation{
+    width: 100%;
+    margin-left: -40px;
 }
 
 .liens-nav{
@@ -841,10 +849,13 @@ main{
   font-size: 16px;
   align-items: center;
   text-align: center;
-  margin-left:-25px;
+  margin-left:-45px;
   font-size: 22px;
   border-bottom: 2px solid #d9d9d9;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
+}
+.liens-nav li{
+    height: 32px;
 }
 
 .lien-nav-active a {
@@ -852,6 +863,10 @@ main{
   border-bottom: 2px solid #0065fc;
   color: #0065fc !important;
   padding-bottom: 10px;
+  padding-top: 0;
+  padding-left: 20px;
+  width: 188px;
+  margin-left: -40px;
 }
 
 .logo-nav .navigation .liens-nav ul{
